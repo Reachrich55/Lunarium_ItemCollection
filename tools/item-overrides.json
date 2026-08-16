@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "items": {
+    "native-06::scripted:砾青城外:62545:4819607608052678723:CAB-86b242d8969b14307571fa904611df75:1258350072674990569": {
+      "completionSignals": [
+        {
+          "kind": "progress-bool",
+          "id": "boss已击败-金红花守卫(5XVvF2icGIc)",
+          "label": "已击败金红花守卫"
+        }
+      ]
+    },
+    "native-07::scripted:砾青城内:205376:4819607609795412389:CAB-86b242d8969b14307571fa904611df75:1258350072674990569": {
+      "completionSignals": [
+        {
+          "kind": "progress-bool",
+          "id": "boss已击败-投石机(NlTGvhbyzio)",
+          "label": "已击败城墙投石机战的工程魔像"
+        }
+      ]
+    },
+    "native-08::scripted:砾青城内:212183:492927993622823544:CAB-8770b54cadd7d017fdca46b30d96b6b6:7319547755110173561": {
+      "completionSignals": [
+        {
+          "kind": "inventory",
+          "id": "L028",
+          "label": "背包中持有侍女灵魂碎片"
+        },
+        {
+          "kind": "scene-item",
+          "id": "拾取物 集中碎片(VIZDI_50Ejk)",
+          "label": "相邻的 8 号集中碎片已收集"
+        }
+      ]
+    },
+    "native-09::可拾取物品 大灵魂-弩魔像(DI_i93x4nxo)": {
+      "completionSignals": [
+        {
+          "kind": "progress-bool",
+          "id": "boss已击败-二楼狙击手(Ay5MchaDrlU)",
+          "label": "已击败训练大厅二楼弩手"
+        }
+      ]
+    },
+    "native-09::scripted:砾青城内:1645:4819607608052678729:CAB-86b242d8969b14307571fa904611df75:1258350072674990569": {
+      "completionSignals": [
+        {
+          "kind": "progress-bool",
+          "id": "boss已击败-人马(2lnaAyZR89k)",
+          "label": "已击败人马芬坦"
+        }
+      ]
+    },
+    "native-09::scripted:砾青城内:187490:4819607608052678732:CAB-86b242d8969b14307571fa904611df75:1258350072674990569": {
+      "completionSignals": [
+        {
+          "kind": "savable-state",
+          "id": "NPC(I0Nj41yZwXs)",
+          "state": "小侍女魔像死亡",
+          "label": "碧翠丝剧情已完成"
+        },
+        {
+          "kind": "progress-bool",
+          "id": "bool-找到侍女魔像3(BsErnjYxqq0)",
+          "label": "已完成第三位侍女魔像事件"
+        }
+      ]
+    },
+    "native-09::scripted:砾青城内:213473:7428699707750482120:CAB-86b242d8969b14307571fa904611df75:1258350072674990569": {
+      "id": "boss-reward:boss已击败-工程魔像(iJolKJnkXyg):L024",
+      "displayX": 42.4133,
+      "displayY": 50.1571,
+      "completionSignals": [
+        {
+          "kind": "progress-bool",
+          "id": "boss已击败-工程魔像(iJolKJnkXyg)",
+          "label": "已击败驻地露台工程魔像"
+        }
+      ]
+    },
+    "native-09::scripted:砾青城内:212248:591751161294356903:CAB-86b242d8969b14307571fa904611df75:1258350072674990569": {
+      "id": "boss-reward:bool-舞者魔像boss已击败(eIdJkh7FthU):L024",
+      "displayX": 91.4127,
+      "displayY": 27.2969,
+      "completionSignals": [
+        {
+          "kind": "progress-bool",
+          "id": "bool-舞者魔像boss已击败(eIdJkh7FthU)",
+          "label": "已击败红舞者"
+        }
+      ]
+    },
+    "native-12::拾取物 集中碎片(GwpVScKKQYg)": {
+      "displayY": 25.0
+    }
+  }
+}

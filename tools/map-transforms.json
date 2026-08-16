@@ -1,0 +1,28 @@
+{
+  "gameBuildId": "24739334",
+  "maps": {
+    "native-00": { "width": 2147, "height": 3693, "centerX": 210.67, "centerY": -140.0002 },
+    "native-01": { "width": 3413, "height": 2881, "centerX": 276.0991, "centerY": -95.9898 },
+    "native-02": { "width": 761, "height": 697, "centerX": 193.1134, "centerY": -242.062 },
+    "native-04": { "width": 1238, "height": 1571, "centerX": -23.4099, "centerY": 108.0803 },
+    "native-05": { "width": 1589, "height": 1763, "centerX": 234.2903, "centerY": -343.7703 },
+    "native-06": { "width": 5371, "height": 4772, "centerX": -372.5706, "centerY": 225.3609 },
+    "native-07": { "width": 5550, "height": 5702, "centerX": 856.9799, "centerY": -373.0105 },
+    "native-08": { "width": 3612, "height": 3042, "centerX": -634.8091, "centerY": 113.8499 },
+    "native-09": { "width": 5047, "height": 3762, "centerX": -1032.6993, "centerY": 8.1095 },
+    "native-10": { "width": 3847, "height": 3156, "centerX": 109.2291, "centerY": 180.1591 },
+    "native-11": { "width": 3085, "height": 4183, "centerX": 4.1297, "centerY": 259.7087 },
+    "native-12": { "width": 4334, "height": 5118, "centerX": -157.7599, "centerY": -187.811 },
+    "native-13": { "width": 371, "height": 1224, "centerX": 4.22, "centerY": 140.69 },
+    "native-14": { "width": 535, "height": 540, "centerX": -157.5532, "centerY": 250.4219 },
+    "native-15": { "width": 3740, "height": 5351, "centerX": -757.2807, "centerY": 336.8202 },
+    "native-16": { "width": 5765, "height": 4017, "centerX": 820.4001, "centerY": 199.1014 },
+    "native-17": { "width": 514, "height": 795, "centerX": 6.6501, "centerY": 38.1002 },
+    "native-18": { "width": 2511, "height": 2464, "centerX": -2.4298, "centerY": 128.7693 },
+    "native-19": { "width": 2090, "height": 3053, "centerX": 83.3694, "centerY": 801.5117 },
+    "native-20": { "width": 1101, "height": 1046, "centerX": 10.8204, "centerY": -24.25 },
+    "native-21": { "width": 3843, "height": 5296, "centerX": -124.4315, "centerY": 345.9205 },
+    "native-22": { "width": 1150, "height": 1859, "centerX": -108.8401, "centerY": 79.4696 },
+    "native-24": { "width": 912, "height": 1474, "centerX": 45.0796, "centerY": 135.0693 }
+  }
+}
