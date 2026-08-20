@@ -373,14 +373,14 @@ internal sealed class MarkerOverlay
         text.AppendLine()
             .Append("<size=26>当前地图：")
             .Append(EscapeRichText(currentMap.Name))
-            .Append("  ·  未收集 ")
+            .Append("  ·  可确认未收集 ")
             .Append(currentMapMissingItems.Count)
             .Append("</size>");
 
         if (currentMapMissingItems.Count == 0)
         {
             text.AppendLine()
-                .Append("<color=#73D69A>此地图道具已全部收集</color>");
+                .Append("<color=#73D69A>当前地图暂无可确认的未收集道具</color>");
             return text.ToString();
         }
 

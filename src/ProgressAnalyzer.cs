@@ -38,17 +38,34 @@ internal static class ProgressAnalyzer
             return new AnalysisResult(CollectionStatus.Missing, "存档中没有检测到该点的完成信号");
         }
 
-        if (inventory.TryGetValue(item.TypeId, out int quantity) && quantity > 0)
-        {
-            return new AnalysisResult(CollectionStatus.Collected, $"背包持有 {item.TypeId} ×{quantity}");
-        }
-
         if (HasCollectedSuccessor(item, save, inventory, out string evidence))
         {
             return new AnalysisResult(CollectionStatus.Collected, evidence);
         }
 
+        if (UsesSceneItemState(item))
+        {
+            return new AnalysisResult(
+                CollectionStatus.Missing,
+                "存档中尚无该场景物品的移除记录（可能位于尚未开启的宝箱）");
+        }
+
+        if (inventory.TryGetValue(item.TypeId, out int quantity) && quantity > 0)
+        {
+            return new AnalysisResult(CollectionStatus.Collected, $"背包持有 {item.TypeId} ×{quantity}");
+        }
+
         return new AnalysisResult(CollectionStatus.Missing, "未检测到原物品或收集后的永久状态");
+    }
+
+    /// <summary>
+    /// 判断收集点是否对应具有独立存档 ID 的场景拾取物。
+    /// </summary>
+    private static bool UsesSceneItemState(CollectibleDefinition item)
+    {
+        return !item.Id.StartsWith("scripted:", StringComparison.Ordinal)
+            && !item.Id.StartsWith("dialogue:", StringComparison.Ordinal)
+            && !item.Id.StartsWith("boss-reward:", StringComparison.Ordinal);
     }
 
     private static AnalysisResult? AnalyzeCompletionSignals(
