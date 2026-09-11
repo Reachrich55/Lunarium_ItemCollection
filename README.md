@@ -70,14 +70,7 @@ Lunarium\Mods\LunariumItemCollectionMod.dll
 - 确认 DLL 位于 `Lunarium\Mods`，而不是 ZIP 内的多层子目录。
 - 确认 MelonLoader 已正常加载，并检查 `MelonLoader\Latest.log` 中是否出现本 Mod 的初始化信息。
 - 尚未探索或尚未由游戏加载的地图块不会提前显示。
-
-**游戏更新后标记异常**
-
-游戏更新若修改地图、存档结构或程序集，可能需要发布适配版本。
-
-**如何卸载**
-
-关闭游戏后删除以下文件即可；本 Mod 不写入存档，也不会留下额外的玩家配置：
+- 检测[F8功能完整性](https://www.zfrontier.com/lab/keyboardTester)
 
 ```text
 Lunarium\Mods\LunariumItemCollectionMod.dll
