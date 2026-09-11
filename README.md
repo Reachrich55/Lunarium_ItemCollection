@@ -72,9 +72,6 @@ Lunarium\Mods\LunariumItemCollectionMod.dll
 - 尚未探索或尚未由游戏加载的地图块不会提前显示。
 - 检测[F8功能完整性](https://www.zfrontier.com/lab/keyboardTester)
 
-```text
-Lunarium\Mods\LunariumItemCollectionMod.dll
-```
 
 ## 开发者说明
 
